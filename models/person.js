@@ -15,6 +15,7 @@ let modelSchema = new Schema({
   nombre   : {type: String},  // Nombre
   apellido : {type: String},  // Apellido
   edad     : {type: Number},  // Edad
+  direccion: {type: String}  // Dirección
   // cDate    : {type: Date,     // fecha de creación
   //          default: Date.now} 
 });
